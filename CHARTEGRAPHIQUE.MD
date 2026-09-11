@@ -29,6 +29,12 @@ h1, h2, h3 { font-family: 'Fraunces', serif; }
 body, p, a, button { font-family: 'Work Sans', sans-serif; }
 ```
 
+## Logo
+
+Monogramme "L" (marron #8C5B42) surmonté d'une feuille en bleu azur (#2E86AB), encerclé d'un contour fin marron. Format carré, fond blanc/uni, sans slogan.
+
+Fichier : `assets/logo.jpg`
+
 ## Usage
 
 - Fond principal des pages : `#F5EFE4`
