@@ -8,16 +8,16 @@
 
 ## Pilier 1 — Mon Parcours Sans Filtre (25%)
 
-| # | Titre accrocheur | Angle | Format |
-|---|---|---|---|
-| 1 | Ce que personne ne montre avant de quitter son CDI | Idée reçue à casser | Carrousel |
-| 2 | Mon planning réel d'une semaine entre CDI et business | Coulisses | Carrousel |
-| 3 | J-100 avant ma liberté : où j'en suis vraiment | Avant/après (suivi) | Reel voix off |
-| 4 | La question qu'on me pose le plus : "Tu n'as pas peur ?" | Question fréquente | Reel voix off |
-| 5 | 3 mois de doutes que je n'avais jamais partagés | Coulisses | Post photo |
-| 6 | Ce qui a changé depuis mon premier jour sur Instagram | Avant/après | Carrousel |
-| 7 | L'erreur que j'ai refaite 3 fois avant de comprendre | Coulisses / échec assumé | Reel voix off |
-| 8 | Pourquoi je documente tout, même ce qui ne marche pas | Idée reçue à casser | Carrousel |
+| # | Titre accrocheur | Angle | Format | Statut |
+|---|---|---|---|---|
+| 1 | Ce que personne ne montre avant de quitter son CDI | Idée reçue à casser | Carrousel | |
+| 2 | Mon planning réel d'une semaine entre CDI et business | Coulisses | Carrousel | |
+| 3 | J-100 avant ma liberté : où j'en suis vraiment | Avant/après (suivi) | Reel voix off | |
+| 4 | La question qu'on me pose le plus : "Tu n'as pas peur ?" | Question fréquente | Reel voix off | |
+| 5 | 3 mois de doutes que je n'avais jamais partagés | Coulisses | Post photo | |
+| 6 | Ce qui a changé depuis mon premier jour sur Instagram | Avant/après | Carrousel | |
+| 7 | L'erreur que j'ai refaite 3 fois avant de comprendre | Coulisses / échec assumé | Reel voix off | |
+| 8 | Pourquoi je documente tout, même ce qui ne marche pas | Idée reçue à casser | Carrousel | ✅ Scripté — `SCRIPTS/post-01-...md` |
 
 ## Pilier 2 — Stratégie & Business Digital (25%)
 
