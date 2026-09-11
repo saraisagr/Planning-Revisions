@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tes 3 pistes de charte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700&family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',system-ui,sans-serif;background:#f4f1ea;color:#333;padding:40px 20px}
+  h1{text-align:center;font-size:22px;margin-bottom:8px}
+  .sub{text-align:center;color:#777;font-size:14px;margin-bottom:36px}
+
+  .board{display:grid;grid-template-columns:1fr;gap:28px;max-width:1100px;margin:0 auto}
+  @media(min-width:900px){.board{grid-template-columns:repeat(3,1fr)}}
+
+  .charte-card{
+    border-radius:20px;overflow:hidden;background:#fff;
+    box-shadow:0 8px 24px rgba(0,0,0,.08);display:flex;flex-direction:column;
+  }
+
+  .ambiance{padding:18px 20px 4px;font-weight:700;font-size:15px;color:#333}
+
+  .swatches{display:flex;gap:10px;padding:10px 20px 18px}
+  .chip{flex:1;height:64px;border-radius:12px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:6px}
+  .chip span{font-size:9px;font-weight:700;background:rgba(255,255,255,.88);color:#333;padding:4px 8px;border-radius:10px;line-height:1.35;text-align:center}
+  .chip span em{display:block;font-style:normal;font-weight:600;opacity:.7;font-size:8.5px;letter-spacing:.02em}
+
+  .mockup{padding:26px 20px;flex:1}
+  .mockup h2{font-size:20px;margin-bottom:10px}
+  .mockup p{font-size:13.5px;line-height:1.6;opacity:.85;margin-bottom:16px}
+  .mockup .btn{display:inline-block;padding:10px 20px;border-radius:99px;font-weight:700;font-size:13px}
+
+  .personality{padding:14px 20px 20px;font-size:12.5px;font-style:italic;color:#777;border-top:1px solid #eee}
+
+  .tip{max-width:640px;margin:36px auto 0;text-align:center;font-size:13px;color:#888}
+
+</style>
+</head>
+<body>
+
+  <h1>Tes 3 pistes de charte graphique</h1>
+  <p class="sub">Compare-les côte à côte. Tu n'as pas besoin de savoir pourquoi une te plaît plus qu'une autre : choisis celle qui te fait dire « oui, c'est ça ».</p>
+
+  <div class="board">
+
+    <!-- ===== CARTE 1 : Cocon Terracotta ===== -->
+    <div class="charte-card">
+      <div class="ambiance">Cocon Terracotta</div>
+      <div class="swatches">
+        <div class="chip" style="background:#8C5B42"><span>Principale<em>#8C5B42</em></span></div>
+        <div class="chip" style="background:#F5EFE4;border:1px solid #ddd"><span>Fond<em>#F5EFE4</em></span></div>
+        <div class="chip" style="background:#D2A06E"><span>Accent<em>#D2A06E</em></span></div>
+      </div>
+      <div class="mockup" style="background:#F5EFE4">
+        <h2 style="font-family:'Fraunces',serif;font-weight:600;color:#4A3423">Bienvenue dans ton nouveau départ</h2>
+        <p style="color:#4A3423;font-family:'Work Sans',sans-serif">Un exemple de paragraphe courant, pour voir comment cette police se lit au quotidien, pas seulement en gros titre.</p>
+        <span class="btn" style="background:#8C5B42;color:#F5EFE4;font-family:'Work Sans',sans-serif">Bouton d'action</span>
+      </div>
+      <p class="personality">Chaleureuse et rassurante, comme les conseils d'une amie qui a déjà fait le chemin avant toi.</p>
+    </div>
+
+    <!-- ===== CARTE 2 : Bleu Marine Autorité ===== -->
+    <div class="charte-card">
+      <div class="ambiance">Bleu Marine Autorité</div>
+      <div class="swatches">
+        <div class="chip" style="background:#1E2A3C"><span>Principale<em>#1E2A3C</em></span></div>
+        <div class="chip" style="background:#F7F4EE;border:1px solid #ddd"><span>Fond<em>#F7F4EE</em></span></div>
+        <div class="chip" style="background:#B98B56"><span>Accent<em>#B98B56</em></span></div>
+      </div>
+      <div class="mockup" style="background:#F7F4EE">
+        <h2 style="font-family:'Libre Baskerville',serif;font-weight:700;color:#1E2A3C">Construis ta stratégie, en toute confiance</h2>
+        <p style="color:#333;font-family:'Inter',sans-serif">Un exemple de paragraphe courant, pour voir comment cette police se lit au quotidien, pas seulement en gros titre.</p>
+        <span class="btn" style="background:#1E2A3C;color:#F7F4EE;font-family:'Inter',sans-serif">Bouton d'action</span>
+      </div>
+      <p class="personality">Sérieuse et premium, celle d'une conseillère en qui on a immédiatement confiance.</p>
+    </div>
+
+    <!-- ===== CARTE 3 : Minimal Noir & Camel ===== -->
+    <div class="charte-card">
+      <div class="ambiance">Minimal Noir & Camel</div>
+      <div class="swatches">
+        <div class="chip" style="background:#1B1B18"><span>Principale<em>#1B1B18</em></span></div>
+        <div class="chip" style="background:#F2ECE1;border:1px solid #ddd"><span>Fond<em>#F2ECE1</em></span></div>
+        <div class="chip" style="background:#C4A06B"><span>Accent<em>#C4A06B</em></span></div>
+      </div>
+      <div class="mockup" style="background:#F2ECE1">
+        <h2 style="font-family:'Syne',sans-serif;font-weight:800;color:#1B1B18">Ta liberté. Ton business. Maintenant.</h2>
+        <p style="color:#33322e;font-family:'DM Sans',sans-serif">Un exemple de paragraphe courant, pour voir comment cette police se lit au quotidien, pas seulement en gros titre.</p>
+        <span class="btn" style="background:#1B1B18;color:#C4A06B;font-family:'DM Sans',sans-serif">Bouton d'action</span>
+      </div>
+      <p class="personality">Affirmée et moderne, celle d'une femme qui n'a plus besoin de convaincre.</p>
+    </div>
+
+  </div>
+
+  <p class="tip">💡 Une fois ton choix fait, dis simplement à Claude laquelle tu préfères : il mettra à jour ta fiche identité tout seul.</p>
+
+</body>
+</html>
