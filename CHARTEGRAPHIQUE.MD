@@ -33,7 +33,17 @@ body, p, a, button { font-family: 'Work Sans', sans-serif; }
 
 Monogramme "L" (marron #8C5B42) surmonté d'une feuille en bleu azur (#2E86AB), encerclé d'un contour fin marron. Format carré, fond blanc/uni, sans slogan.
 
-Fichier : `assets/logo.jpg`
+Fichier source : `assets/logo.jpg`
+
+### Déclinaisons
+
+| Version | Fichier |
+|---|---|
+| Carrée, fond beige (par défaut) | `assets/logo-carre-beige.png` |
+| Ronde, fond beige (réseaux sociaux) | `assets/logo-rond-beige.png` |
+| Fond transparent | `assets/logo-fond-transparent.png` |
+| Fond marron `#8C5B42` (monogramme en beige) | `assets/logo-fond-marron.png` |
+| Fond bleu azur `#2E86AB` (monogramme en beige) | `assets/logo-fond-azur.png` |
 
 ## Usage
 
