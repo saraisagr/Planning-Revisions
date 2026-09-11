@@ -10,13 +10,13 @@
 
 ## Charte graphique
 
-- **Ambiance :** Cocon Terracotta
+- **Ambiance :** Cocon Azur
 - **Couleur principale :** #8C5B42 (marron chaud)
 - **Couleur de fond :** #F5EFE4 (beige)
-- **Couleur d'accent :** #D2A06E (cuivré)
+- **Couleur d'accent :** #2E86AB (bleu azur)
 - **Police des titres :** Fraunces (serif expressive)
 - **Police du texte :** Work Sans
-- **Personnalité visuelle :** Chaleureuse et rassurante, comme les conseils d'une amie qui a déjà fait le chemin avant toi.
+- **Personnalité visuelle :** Chaleureuse et rassurante, réchauffée par une touche de bleu azur qui inspire confiance et clarté.
 
 ---
 
