@@ -2,7 +2,7 @@
 
 > Généré à partir de `FICHE D'IDENTITÉ.md` et `PILIERS.md`. Les idées sont numérotées en continu : toute nouvelle vague d'idées s'ajoute à la suite, sans jamais répéter celles déjà listées ici.
 >
-> Format "reel face caméra" volontairement exclu de toutes les idées : contradictoire avec la stratégie **faceless** confirmée dans `AUDIT.md`. Formats utilisés : carrousel, reel voix off, post photo.
+> Mise à jour : la stratégie faceless a été remplacée par une **influenceuse IA** (`assets/persona/`) comme visage de marque — voir `AUDIT.md`. Les idées listées ci-dessous restent en formats photo/carrousel/voix off, car faire "parler" la persona en vidéo demande un avatar animé (technologie séparée, pas encore mise en place). Dis-le-moi si tu veux qu'on l'envisage.
 
 ---
 
@@ -53,13 +53,13 @@
 | 26 | Comment je gère le syndrome de l'imposteur | Question fréquente | Reel voix off |
 | 27 | Ce que la liberté professionnelle veut vraiment dire pour moi | Coulisses / mindset | Post photo |
 
-## Pilier 5 — Créer en Faceless (10%)
+## Pilier 5 — Coulisses de mon avatar IA (10%)
 
 | # | Titre accrocheur | Angle | Format |
 |---|---|---|---|
-| 28 | Comment je crée du contenu sans jamais montrer mon visage | Tuto | Carrousel |
-| 29 | Faceless : la tendance qui explose en 2026, et pourquoi ça marche | Tendance niche | Reel voix off |
-| 30 | 🔴 Pendant que tout le monde utilise l'IA pour paraître parfait, je reste 100% humaine et sans visage | Actu intégrée (montée de l'IA générative dans le contenu marketing 2026) | Carrousel |
+| 28 | Pourquoi j'ai choisi une influenceuse IA plutôt que de montrer mon vrai visage | Idée reçue à casser / vécu | Carrousel |
+| 29 | Comment je crée du contenu avec une persona 100% générée par IA | Tuto / coulisses | Reel voix off |
+| 30 | 🔴 Tout le monde dit que l'IA tue l'authenticité. Moi je m'en sers pour la construire autrement | Actu intégrée (montée de l'IA générative dans le contenu marketing 2026) | Carrousel |
 
 ---
 

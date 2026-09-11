@@ -5,7 +5,9 @@
 
 > ⚠️ Le compte étant vide, cet audit porte uniquement sur les fondations (profil, bio, positionnement) — les points liés aux publications et aux statistiques n'ont pas de matière à analyser. Ils sont posés ici comme **base de référence (0)** : au prochain audit, je comparerai directement avec cette date.
 
-> 📌 **Choix stratégiques confirmés :** contenu **faceless** (pas de visage à l'écran) et **lien en bio conservé** (voir notes ci-dessous — le lien en bio n'est pas pénalisé, c'est une confusion à corriger).
+> 📌 **Choix stratégiques confirmés :** contenu porté par une **influenceuse IA** (persona générée, `assets/persona/`) comme visage de la marque — remplace le faceless pur décidé initialement — et **lien en bio conservé** (voir notes ci-dessous — le lien en bio n'est pas pénalisé, c'est une confusion à corriger).
+>
+> ⚠️ **Point de vigilance honnête :** ta différenciation est "l'authenticité". Utiliser un visage généré par IA sans le dire crée une tension avec cette promesse — si ton audience découvre que le visage n'est pas réel sans l'avoir su, ça peut casser la confiance que tu cherches à construire. Deux options : soit tu assumes et communiques dessus (ça devient même un sujet de contenu différenciant), soit tu restes floue et tu prends le risque. Vois section 4 et le pilier "Coulisses de mon avatar IA" dans `PILIERS.md` pour la première option.
 
 ---
 
@@ -62,9 +64,10 @@
 
 - **Pseudo (@lena.libertedigitale) :** correct — contient ton prénom et ton créneau ("liberté digitale"), facile à retrouver en recherche. Rien à changer ici.
 - **Champ "Nom" (Léna | Construire sa liberté) :** lisible, mais peu optimisé pour la recherche Instagram, qui indexe ce champ. Il ne contient aucun mot-clé lié à ton activité réelle (business, digital, formation). À enrichir (proposition en section 5).
-- **Photo de profil :** c'est le point le plus urgent, mais pas dans le sens "montre ton visage" — tu as choisi une stratégie **faceless**, ce qui est parfaitement viable. Le problème actuel n'est pas l'absence de visage, c'est l'absence de **repère de marque net** : la photo actuelle est un visuel flou et non identifiable, ni un portrait ni un logo.
-  → **Action :** utilise ton logo (le monogramme "L" Cocon Azur, `assets/logo-rond-beige.png`) comme photo de profil. C'est l'usage standard pour un compte faceless, il est déjà prêt et cohérent avec ta charte.
-  → **Ce que le faceless doit compenser ailleurs** pour garder l'effet "authenticité, sans bullshit" : ta voix (voix off sur les reels), tes mains à l'écran, du texte qui raconte vraiment ton vécu, des captures d'écran de ton process/résultats. Un compte faceless qui marche est "présent autrement", pas juste invisible.
+- **Photo de profil :** tu as maintenant une **influenceuse IA** (`assets/persona/`) comme visage de marque, ce qui remplace la recommandation initiale du logo seul.
+  → **Action :** utilise `assets/persona/persona-03-face.png` comme photo de profil (visage net, regard caméra, cadrage centré, se lit bien même en miniature ronde).
+  → **Le logo reste utile ailleurs** : couvertures de stories à la une, watermark sur les visuels, éventuellement en petit sur les carrousels pour la reconnaissance de marque — mais plus comme photo de profil principale.
+  → **Cohérence à tenir dans le contenu** : si le visage est celui de la persona IA, la voix, l'écriture et les histoires racontées doivent rester 100% les tiennes, réelles. C'est ce qui permet de garder l'authenticité malgré un visage généré (voir point de vigilance en tête de fichier).
 
 ### Précision sur le lien en bio
 
@@ -115,7 +118,7 @@ Comme le compte est à J1, c'est normal et même stratégique de ne pas tout dé
 
 ## Top 3 corrections express (moins de 30 minutes aujourd'hui)
 
-1. **Change ta photo de profil** : mets ton logo (`assets/logo-rond-beige.png`, déjà prêt) à la place du visuel actuel — cohérent avec ta stratégie faceless. (2 min)
+1. **Change ta photo de profil** : mets `assets/persona/persona-03-face.png` (ton influenceuse IA) à la place du visuel actuel. (2 min)
 2. **Ajoute un lien en bio** — même sans offre, mets un lien vers une page de capture email ("rejoins la liste d'attente"), un Linktree, ou à défaut ton compte le plus actif ailleurs. Aucun risque algorithmique à avoir ce lien. (10 min)
 3. **Réécris ta bio** avec une des 3 versions ci-dessous, pour nommer ta cible et ajouter un vrai appel à l'action. (10 min)
 
@@ -166,10 +169,10 @@ Léna | Business & Liberté digitale
 ## Plan d'action sur 30 jours
 
 ### Semaine 1 — Fondations (avant tout post)
-- Nouvelle photo de profil : le logo Cocon Azur (`assets/logo-rond-beige.png`)
+- Nouvelle photo de profil : l'influenceuse IA (`assets/persona/persona-03-face.png`)
 - Nouvelle bio (une des 3 versions ci-dessus) + lien en bio actif
 - Champ "Nom" optimisé, ex. : *Léna \| Business & Liberté digitale*
-- Préparer le post de présentation (à épingler) et 2 autres posts d'authenticité, en format faceless (voix off, mains à l'écran, texte à l'écran)
+- Préparer le post de présentation (à épingler) et 2 autres posts d'authenticité, portés par la persona IA (voix off toujours la tienne, texte à l'écran, storytelling réel)
 
 ### Semaine 2 — Lancement
 - Publier le post de présentation + l'épingler

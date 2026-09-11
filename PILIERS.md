@@ -44,14 +44,14 @@ Exemples de sujets :
 - Construire à son rythme : arrêter de se comparer aux "success stories" qui vont trop vite
 - Ce que la liberté professionnelle veut vraiment dire, au-delà de "quitter son CDI"
 
-## 5. Créer en Faceless — 10%
+## 5. Coulisses de mon avatar IA — 10%
 
-**Apporte à l'audience :** contenu méta qui démontre ton savoir-faire, utile pour une cible qui pourrait vouloir se lancer sans montrer son visage, et te différencie.
+**Apporte à l'audience :** de la transparence sur un choix qui pourrait sembler contradictoire avec l'authenticité — en l'assumant plutôt qu'en le cachant, ça devient une preuve de "sans bullshit" plutôt qu'un risque de confiance cassée.
 
 Exemples de sujets :
-- Comment je crée du contenu efficace sans montrer mon visage
-- Les outils que j'utilise pour un compte faceless qui capte l'attention
-- Faceless : mythe ou vraie stratégie ? Ce que ça change concrètement
+- Pourquoi j'ai choisi une influenceuse IA plutôt que de montrer mon vrai visage
+- Comment je crée du contenu avec une persona 100% générée, en gardant ma vraie voix
+- IA et authenticité : est-ce vraiment incompatible ?
 
 ---
 

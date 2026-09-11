@@ -29,9 +29,19 @@ h1, h2, h3 { font-family: 'Fraunces', serif; }
 body, p, a, button { font-family: 'Work Sans', sans-serif; }
 ```
 
+## Influenceuse IA (visage de marque)
+
+Persona générée par IA, cheveux bruns longs, style vestimentaire beige/taupe cohérent avec la charte, tons neutres. Sert de photo de profil et de visage dans les contenus.
+
+Fichiers sources : `assets/persona/` (8 portraits, plusieurs angles). Photo de profil recommandée : `assets/persona/persona-03-face.png` (regard caméra, cadrage centré).
+
+⚠️ Voir `AUDIT.md` pour le point de vigilance sur la cohérence avec l'authenticité : la voix et les histoires racontées doivent rester réelles même si le visage est généré.
+
 ## Logo
 
 Monogramme "L" (marron #8C5B42) surmonté d'une feuille en bleu azur (#2E86AB), encerclé d'un contour fin marron. Format carré, fond blanc/uni, sans slogan.
+
+Rôle secondaire depuis l'arrivée de la persona IA : couvertures de stories à la une, watermark, éléments de reconnaissance de marque sur les visuels — plus utilisé comme photo de profil principale.
 
 Fichier source : `assets/logo.jpg`
 
