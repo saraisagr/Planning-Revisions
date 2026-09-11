@@ -5,6 +5,8 @@
 
 > ⚠️ Le compte étant vide, cet audit porte uniquement sur les fondations (profil, bio, positionnement) — les points liés aux publications et aux statistiques n'ont pas de matière à analyser. Ils sont posés ici comme **base de référence (0)** : au prochain audit, je comparerai directement avec cette date.
 
+> 📌 **Choix stratégiques confirmés :** contenu **faceless** (pas de visage à l'écran) et **lien en bio conservé** (voir notes ci-dessous — le lien en bio n'est pas pénalisé, c'est une confusion à corriger).
+
 ---
 
 ## 1. Note globale : 5,5 / 10
@@ -13,7 +15,7 @@
 |---|---|---|
 | Test des 5 secondes | 6/10 | Message d'intention clair, mais aucune preuve de contenu et aucun visage identifiable |
 | Bio | 5/10 | Ton juste et authentique, mais orientée "journal perso" plutôt que "client", et sans lien ni vraie action possible |
-| Photo de profil / pseudo | 4/10 | Pseudo correct, mais photo peu reconnaissable et champ nom sous-optimisé pour la recherche |
+| Photo de profil / pseudo | 4/10 | Pseudo correct, mais photo actuelle peu reconnaissable (à remplacer par le logo, stratégie faceless) et champ nom sous-optimisé pour la recherche |
 | Stories à la une | N/A | Aucune à ce jour — à créer dès les premiers contenus |
 | Posts épinglés | N/A | Aucun post existant — rien à épingler pour l'instant |
 | 12 derniers posts | N/A | 0 publication |
@@ -30,8 +32,8 @@
 
 **Ce qui fait fuir :**
 - **0 publication, 0 abonné** : une visiteuse qui découvre ce profil n'a aucune preuve que tu es réellement en train de faire quelque chose. C'est le frein numéro 1 en ce moment.
-- **Photo de profil peu identifiable** : on ne voit pas ton visage clairement (photo de dos/de profil, chapeau). Pour une marque personnelle basée sur l'authenticité, l'absence de visage reconnaissable est contradictoire avec ton positionnement.
-- **Aucun lien en bio** : la flèche "↓" dans ta bio pointe vers rien. Une visiteuse intéressée n'a aucune action à faire.
+- **Photo de profil peu identifiable** : elle ne montre ni ton visage ni ton logo — c'est un visuel flou sans repère de marque. (Ce point ne veut pas dire "montre ton visage" : en faisant du faceless, ton logo Cocon Azur joue ce rôle de repère visuel à la place.)
+- **Aucun lien en bio** : la flèche "↓" dans ta bio pointe vers rien. Une visiteuse intéressée n'a aucune action à faire. *(Le lien en bio lui-même n'est pas un problème — voir section 4.)*
 
 ---
 
@@ -60,7 +62,16 @@
 
 - **Pseudo (@lena.libertedigitale) :** correct — contient ton prénom et ton créneau ("liberté digitale"), facile à retrouver en recherche. Rien à changer ici.
 - **Champ "Nom" (Léna | Construire sa liberté) :** lisible, mais peu optimisé pour la recherche Instagram, qui indexe ce champ. Il ne contient aucun mot-clé lié à ton activité réelle (business, digital, formation). À enrichir (proposition en section 5).
-- **Photo de profil :** c'est le point le plus urgent. La photo actuelle (vue de dos/de profil, chapeau, cadrage artistique) ne montre pas ton visage de façon nette. Pour une marque personnelle fondée sur l'authenticité et la confiance, la première chose qu'une inconnue doit pouvoir faire est de "voir" qui tu es. Une photo de profil avec ton visage visible, un sourire naturel et un cadrage serré (le visage doit rester lisible même en miniature ronde) convertira mieux la confiance.
+- **Photo de profil :** c'est le point le plus urgent, mais pas dans le sens "montre ton visage" — tu as choisi une stratégie **faceless**, ce qui est parfaitement viable. Le problème actuel n'est pas l'absence de visage, c'est l'absence de **repère de marque net** : la photo actuelle est un visuel flou et non identifiable, ni un portrait ni un logo.
+  → **Action :** utilise ton logo (le monogramme "L" Cocon Azur, `assets/logo-rond-beige.png`) comme photo de profil. C'est l'usage standard pour un compte faceless, il est déjà prêt et cohérent avec ta charte.
+  → **Ce que le faceless doit compenser ailleurs** pour garder l'effet "authenticité, sans bullshit" : ta voix (voix off sur les reels), tes mains à l'écran, du texte qui raconte vraiment ton vécu, des captures d'écran de ton process/résultats. Un compte faceless qui marche est "présent autrement", pas juste invisible.
+
+### Précision sur le lien en bio
+
+Une idée reçue à corriger : **le champ lien du profil Instagram (sous ta bio) n'est pas pénalisé par l'algorithme.** C'est une fonctionnalité native faite pour être utilisée — aucun compte n'est vu comme "un robot" pour en avoir un.
+
+Ce qui est vrai et probablement à l'origine de la confusion : Instagram a tendance à moins pousser les **posts/reels dont la légende répète "lien en bio"**, parce que ça pousse à quitter la plateforme. Ce n'est pas le lien du profil qui pose problème, c'est la mention répétée en légende.
+→ **Garde le lien en bio** (aucun risque). Dans tes légendes, préfère des CTA qui font interagir sur place : *"écris [mot-clé] en commentaire, je t'envoie le lien en DM"* plutôt que "lien en bio" à chaque post.
 
 ---
 
@@ -104,8 +115,8 @@ Comme le compte est à J1, c'est normal et même stratégique de ne pas tout dé
 
 ## Top 3 corrections express (moins de 30 minutes aujourd'hui)
 
-1. **Change ta photo de profil** pour un portrait où ton visage est net et visible, cadré serré, lumière naturelle. (5 min)
-2. **Ajoute un lien en bio** — même sans offre, mets un lien vers une page de capture email ("rejoins la liste d'attente"), un Linktree, ou à défaut ton compte le plus actif ailleurs. Sans lien, ta flèche "↓" ne mène nulle part. (10 min)
+1. **Change ta photo de profil** : mets ton logo (`assets/logo-rond-beige.png`, déjà prêt) à la place du visuel actuel — cohérent avec ta stratégie faceless. (2 min)
+2. **Ajoute un lien en bio** — même sans offre, mets un lien vers une page de capture email ("rejoins la liste d'attente"), un Linktree, ou à défaut ton compte le plus actif ailleurs. Aucun risque algorithmique à avoir ce lien. (10 min)
 3. **Réécris ta bio** avec une des 3 versions ci-dessous, pour nommer ta cible et ajouter un vrai appel à l'action. (10 min)
 
 ---
@@ -136,7 +147,7 @@ Léna | Business & Liberté digitale
 👇 Rejoins l'aventure dès aujourd'hui
 ```
 
-*Dans les 3 cas, remplace "👇" par un vrai lien une fois qu'il existe.*
+*Dans les 3 cas, "👇" renvoie vers le lien du profil (champ natif Instagram) — aucun risque à l'utiliser, il suffit d'y mettre une vraie destination.*
 
 ---
 
@@ -155,10 +166,10 @@ Léna | Business & Liberté digitale
 ## Plan d'action sur 30 jours
 
 ### Semaine 1 — Fondations (avant tout post)
-- Nouvelle photo de profil (visage visible, cohérente avec la charte Cocon Azur)
+- Nouvelle photo de profil : le logo Cocon Azur (`assets/logo-rond-beige.png`)
 - Nouvelle bio (une des 3 versions ci-dessus) + lien en bio actif
 - Champ "Nom" optimisé, ex. : *Léna \| Business & Liberté digitale*
-- Préparer le post de présentation (à épingler) et 2 autres posts d'authenticité
+- Préparer le post de présentation (à épingler) et 2 autres posts d'authenticité, en format faceless (voix off, mains à l'écran, texte à l'écran)
 
 ### Semaine 2 — Lancement
 - Publier le post de présentation + l'épingler
@@ -167,9 +178,9 @@ Léna | Business & Liberté digitale
 - Commencer à interagir chaque jour avec 10-15 comptes de ta cible (commentaires sincères, pas génériques)
 
 ### Semaine 3 — Test de formats
-- Alterner les formats : carrousel éducatif, reel authentique (parle-caméra), photo + légende longue
+- Alterner les formats faceless : carrousel éducatif, reel voix off (écran, texte, mains), photo + légende longue
 - Identifier les 5 premiers mots de chaque accroche pour qu'ils donnent envie de lire la suite (ex. : "Voici ce que personne ne te dit...")
-- Ajouter un CTA clair à la fin de chaque publication (question, "dis-moi en commentaire", "enregistre pour plus tard")
+- Ajouter un CTA qui fait interagir sur place à la fin de chaque publication ("écris [mot-clé] en commentaire", "enregistre pour plus tard") plutôt que "lien en bio" répété
 
 ### Semaine 4 — Premiers résultats et ajustement
 - Regarder l'onglet Statistiques pour la première fois : identifier les 2-3 posts qui ont le mieux marché
