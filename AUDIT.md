@@ -126,28 +126,29 @@ Comme le compte est à J1, c'est normal et même stratégique de ne pas tout dé
 
 ## 3 propositions de bio (prêtes à copier-coller)
 
-**Version 1 — Authentique / journal de bord**
+> Mises à jour le 12 septembre 2026 : ton aligné sur `BRIEF-LID.md` (ambitieux, direct, premium) — remplace les versions "J1 de mon aventure" initiales.
+
+**Version 1 — Fight statement**
 ```
-🦋 D'un CDI à ma liberté financière — sans filtre
-💻 Business & digital pour reconstruire sa confiance
-🤍 Aucune méthode miracle, juste le vrai chemin
-👇 Suis mon parcours dès le Jour 1
+Tu n'as pas besoin qu'on te donne ta liberté 🦋
+Je construis la mienne grâce au digital, sans filtre
+Indépendance financière · Business · Personal branding
+👇 Commence avec moi
 ```
 
-**Version 2 — Orientée cible**
+**Version 2 — Positionnement direct**
 ```
-Pour les femmes qui veulent reprendre le contrôle 💫
-🚀 J'apprends (et je partage) le business digital en direct
-🤍 Zéro paillettes, 100% authenticité
-👇 Viens construire ta liberté avec moi
+J'aide les femmes à transformer leurs compétences en indépendance financière 💼
+Digital, business, personal branding — sans jargon
+👇 Découvre comment
 ```
 
-**Version 3 — Positionnement explicite**
+**Version 3 — Prise de conscience**
 ```
-Léna | Business & Liberté digitale
-📍 J'aide les femmes à se lancer dans le digital, sans prétendre tout savoir
-💻 Contenus, conseils & coulisses 100% réels
-👇 Rejoins l'aventure dès aujourd'hui
+Le problème n'est pas ton manque de compétences.
+C'est ton manque de visibilité.
+Je t'aide à construire une activité qui t'appartient 🚀
+👇 Viens voir comment
 ```
 
 *Dans les 3 cas, "👇" renvoie vers le lien du profil (champ natif Instagram) — aucun risque à l'utiliser, il suffit d'y mettre une vraie destination.*

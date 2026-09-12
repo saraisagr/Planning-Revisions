@@ -1,7 +1,7 @@
 # Charte graphique — Cocon Azur
 
 ## Ambiance
-Chaleureuse et rassurante, réchauffée par une touche de bleu azur qui inspire confiance et clarté.
+Premium et affirmée, réchauffée par une touche de bleu azur qui inspire confiance et ambition. (Mise à jour du ton le 12 septembre 2026, voir `BRIEF-LID.md`.)
 
 ## Couleurs
 

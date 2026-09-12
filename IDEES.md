@@ -86,3 +86,5 @@
 ---
 
 *Prochaine vague d'idées : continuer la numérotation à partir de 38, ne jamais reformuler ni répéter les idées 1 à 37 ci-dessus.*
+
+> ⚠️ **Changement de ton au 12 septembre 2026 :** `BRIEF-LID.md` fixe un ton ambitieux, direct, premium, qui remplace le ton "J1 de mon aventure, vulnérable" utilisé pour les idées 1 à 37. Les prochaines vagues d'idées doivent suivre ce nouveau ton et les 6 piliers de `PILIERS.md` (mis à jour), et passer par le filtre de la section 14 du brief avant validation.
