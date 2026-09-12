@@ -186,3 +186,24 @@
 ---
 
 *Prochaine vague d'idées : continuer la numérotation à partir de 46, ne jamais reformuler ni répéter les idées 1 à 45 ci-dessus.*
+
+---
+
+## Suivi d'utilisation
+
+> Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).
+
+| # | Titre court | Utilisée dans |
+|---|---|---|
+| 38 | Personne ne te dit ça... | Calendrier — Semaine 1 (14-20 sept) |
+| 31 | C'est quoi une formation MRR... | Calendrier — Semaine 1 (14-20 sept) |
+| 28 | Pourquoi j'ai choisi une influenceuse IA... | Calendrier — Semaine 1 (14-20 sept) |
+| 42 | Ce que l'indépendance financière change vraiment... | Calendrier — Semaine 2 (21-27 sept) |
+| 35 | Pourquoi j'ai créé "L'indépendance digitale"... | Calendrier — Semaine 2 (21-27 sept) |
+| 26 | Comment je gère le syndrome de l'imposteur | Calendrier — Semaine 2 (21-27 sept) |
+| 45 | L'indépendance digitale : comment ça fonctionne... | Calendrier — Semaine 3 (28 sept-4 oct) |
+| 41 | Tu n'as pas besoin d'être prête pour commencer | Calendrier — Semaine 3 (28 sept-4 oct) |
+| 29 | Comment je crée du contenu avec une persona IA | Calendrier — Semaine 3 (28 sept-4 oct) |
+| 33 | Est-ce que je dois déjà avoir un business... | Calendrier — Semaine 4 (5-11 oct) |
+| 44 | 3 erreurs qui empêchent ton personal branding... | Calendrier — Semaine 4 (5-11 oct) |
+| 21 | Revenu actif vs revenu passif... | Calendrier — Semaine 4 (5-11 oct) |
