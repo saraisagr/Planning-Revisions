@@ -69,4 +69,20 @@
 
 ---
 
-*Prochaine vague d'idées : continuer la numérotation à partir de 31, ne jamais reformuler ni répéter les idées 1 à 30 ci-dessus.*
+## Vague 2 — Vente de "L'indépendance digitale" (formation MRR)
+
+> Ajoutée le 12 septembre 2026, suite à la précision de l'offre dans `FICHE D'IDENTITÉ.md`. Ces idées rattachent principalement au Pilier 3 (Revenus Digitaux), avec quelques ponts vers le Pilier 1 (Parcours) et le Pilier 4 (Confiance).
+
+| # | Titre accrocheur | Angle | Format |
+|---|---|---|---|
+| 31 | C'est quoi une formation MRR, et pourquoi ce n'est pas une arnaque | Idée reçue à casser | Carrousel |
+| 32 | Comment fonctionne "L'indépendance digitale", ma formation, en 3 étapes | Tuto | Carrousel |
+| 33 | Est-ce que je dois déjà avoir un business pour suivre cette formation ? | Question fréquente | Reel voix off |
+| 34 | Ce que j'aurais aimé savoir avant de me lancer dans le MRR | Coulisses / vécu | Reel voix off |
+| 35 | Pourquoi j'ai créé "L'indépendance digitale" plutôt que de revendre un produit MRR de plus | Idée reçue à casser / positionnement | Carrousel |
+| 36 | Revenu passif avec le MRR : ce qui est vrai, ce qui est exagéré | Idée reçue à casser | Carrousel |
+| 37 | 3 signes qu'il est temps pour toi de te former au digital | Tuto / checklist | Carrousel |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 38, ne jamais reformuler ni répéter les idées 1 à 37 ci-dessus.*

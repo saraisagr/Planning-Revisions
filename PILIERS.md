@@ -28,11 +28,11 @@ Exemples de sujets :
 
 ## 3. Revenus Digitaux — 20%
 
-**Apporte à l'audience :** démystifie les leviers concrets de revenus (produits digitaux, affiliation), prépare le terrain pour tes futures offres.
+**Apporte à l'audience :** démystifie les leviers concrets de revenus (produits digitaux, affiliation), et amène naturellement vers ton offre phare : "L'indépendance digitale" (formation MRR).
 
 Exemples de sujets :
 - C'est quoi vraiment l'affiliation, expliqué simplement
-- Les types de produits digitaux qu'on peut créer sans expertise préalable
+- C'est quoi une formation MRR, et comment "L'indépendance digitale" fonctionne concrètement
 - Comment je choisis les produits que je recommande en affiliation
 
 ## 4. Confiance & Liberté — 20%
