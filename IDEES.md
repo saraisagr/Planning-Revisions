@@ -88,3 +88,101 @@
 *Prochaine vague d'idées : continuer la numérotation à partir de 38, ne jamais reformuler ni répéter les idées 1 à 37 ci-dessus.*
 
 > ⚠️ **Changement de ton au 12 septembre 2026 :** `BRIEF-LID.md` fixe un ton ambitieux, direct, premium, qui remplace le ton "J1 de mon aventure, vulnérable" utilisé pour les idées 1 à 37. Les prochaines vagues d'idées doivent suivre ce nouveau ton et les 6 piliers de `PILIERS.md` (mis à jour), et passer par le filtre de la section 14 du brief avant validation.
+
+---
+
+## Vague 3 — Hooks tranchants, formats variés (12 septembre 2026)
+
+> Retour terrain : les idées 1 à 37 étaient trop uniformément carrousel/liste, hooks plats ("5 types de...", "3 erreurs..."). Cette vague applique directement `BRIEF-LID.md` section 15 (hooks spécifiques, jamais génériques) et section 10 (variété des types de contenu : prise de conscience, opinion, aspirationnel, conversationnel — pas seulement éducatif). Gabarit complet par idée, comme demandé section 16 du brief.
+
+### 38 — Prise de conscience
+- **Hook :** Personne ne te dit ça quand tu veux devenir indépendante financièrement.
+- **Angle :** Vérité qu'on cache / prise de conscience
+- **Message principal :** la plupart n'abandonnent pas par manque de compétence, mais parce qu'elles attendent le bon moment.
+- **Format :** Reel voix off
+- **Déroulé :** Hook → 3 vérités qu'on ne dit jamais → chute qui recentre sur l'action
+- **CTA :** "Dis-moi en commentaire laquelle tu vis en ce moment"
+- **Pilier :** 5 — Mindset & identité
+- **Objectif :** Connecter
+- **Émotion recherchée :** reconnaissance ("elle parle exactement de moi")
+
+### 39 — Provocation / personal branding
+- **Hook :** Ton problème n'est peut-être pas que tu ne sais pas quoi vendre. C'est que personne ne sait pourquoi acheter chez toi.
+- **Angle :** Provocation, remise en question directe
+- **Message principal :** le vrai frein à la vente digitale, c'est le positionnement, pas l'offre.
+- **Format :** Carrousel court (4 slides max, pas de liste à puces)
+- **Déroulé :** Hook → le vrai problème → exemple concret → comment y répondre
+- **CTA :** "Écris TON en commentaire, je te dis comment trouver le tien"
+- **Pilier :** 3 — Personal Branding
+- **Objectif :** Positionner
+- **Émotion recherchée :** prise de conscience, inconfort utile
+
+### 40 — Opinion assumée
+- **Hook :** Je ne pense pas que toutes les femmes doivent devenir entrepreneures. Mais je pense que toutes devraient pouvoir choisir.
+- **Angle :** Opinion tranchée
+- **Message principal :** LID ne vend pas l'entrepreneuriat à tout prix, mais la possibilité réelle de choisir.
+- **Format :** Post photo (persona, regard caméra, légende longue)
+- **Déroulé :** affirmation forte en légende, développée sur plusieurs lignes courtes
+- **CTA :** "Tu es d'accord ou pas ? Dis-le-moi"
+- **Pilier :** 1 — Indépendance financière
+- **Objectif :** Positionner + Connecter
+- **Émotion recherchée :** adhésion, sentiment d'être comprise
+
+### 41 — Anti-perfectionnisme
+- **Hook :** Tu n'as pas besoin d'être prête pour commencer.
+- **Angle :** Prise de conscience
+- **Message principal :** l'action précède la confiance, pas l'inverse.
+- **Format :** Reel voix off
+- **Déroulé :** Hook → pourquoi on attend d'être prête → ce qui se passe vraiment quand on commence imparfaite → invitation à agir
+- **CTA :** "Le truc que tu repousses depuis trop longtemps, dis-le en commentaire"
+- **Pilier :** 5 — Mindset & identité
+- **Objectif :** Connecter + Convertir
+- **Émotion recherchée :** déclic, envie d'agir
+
+### 42 — Aspirationnel
+- **Hook :** Ce que l'indépendance financière change vraiment, ce n'est pas ton compte en banque.
+- **Angle :** Aspirationnel
+- **Message principal :** la vraie transformation, c'est le sentiment de contrôle sur sa vie, pas seulement l'argent.
+- **Format :** Carrousel court (3-4 slides, visuel fort, peu de texte)
+- **Déroulé :** Hook → ce que les gens pensent que ça change → ce que ça change vraiment → image finale aspirationnelle
+- **CTA :** "Enregistre ce post si tu vises ça"
+- **Pilier :** 1 — Indépendance financière
+- **Objectif :** Attirer + Connecter
+- **Émotion recherchée :** aspiration, espoir
+
+### 43 — Conversationnel
+- **Hook :** Qu'est-ce qui te retient vraiment ?
+- **Angle :** Question ouverte, conversationnel
+- **Message principal :** ouvrir un espace de discussion honnête sur les blocages, sans jugement.
+- **Format :** Story (question interactive), reprise en post le lendemain
+- **Déroulé :** sondage/question en story → réponses les plus fréquentes reprises en carrousel
+- **CTA :** réponse directe dans la story
+- **Pilier :** 4 — Entrepreneuriat féminin
+- **Objectif :** Connecter + Éduquer
+- **Émotion recherchée :** sentiment d'être écoutée
+
+### 44 — Éducatif direct
+- **Hook :** 3 erreurs qui empêchent ton personal branding de fonctionner (et que tu fais probablement).
+- **Angle :** Éducatif, mais assumé et direct
+- **Message principal :** erreurs concrètes, identifiables, actionnables immédiatement.
+- **Format :** Carrousel
+- **Déroulé :** Hook → erreur 1 → erreur 2 → erreur 3, chacune avec un exemple → comment corriger
+- **CTA :** "Laquelle tu vas corriger en premier ?"
+- **Pilier :** 3 — Personal Branding
+- **Objectif :** Éduquer + Positionner
+- **Émotion recherchée :** clarté, envie d'agir
+
+### 45 — Conversion
+- **Hook :** L'indépendance digitale : comment ça fonctionne concrètement, sans jargon.
+- **Angle :** Conversion / présentation d'offre, sans promesse irréaliste
+- **Message principal :** présenter "L'indépendance digitale" (formation MRR) : le problème qu'elle résout, comment, résultats possibles honnêtes.
+- **Format :** Carrousel
+- **Déroulé :** Hook → problème résolu → comment ça marche → résultats possibles (honnêtes, sans garantie) → CTA
+- **CTA :** "Écris INDÉPENDANCE en commentaire, je t'envoie les infos en DM"
+- **Pilier :** 2 — Digital & opportunités
+- **Objectif :** Convertir
+- **Émotion recherchée :** confiance, envie d'en savoir plus
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 46, ne jamais reformuler ni répéter les idées 1 à 45 ci-dessus.*
