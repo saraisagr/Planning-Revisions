@@ -185,7 +185,20 @@
 
 ---
 
-*Prochaine vague d'idées : continuer la numérotation à partir de 46, ne jamais reformuler ni répéter les idées 1 à 45 ci-dessus.*
+## Veille du 2026-09-14
+
+> Générée par le skill `veille-mds`. Instagram, TikTok et la quasi-totalité des sites externes étaient bloqués cette semaine (voir `VEILLE/semaine-2026-09-14.md`) — ces idées viennent de vraies tendances trouvées par recherche web (carrousels en hausse, contenu low-production, réceptivité de rentrée), pas de posts copiés.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 46 | Septembre, le mois où tout le monde veut remettre de l'ordre dans son argent | Tendance de rentrée | Carrousel | Vente |
+| 47 | Je ne vais pas te vendre un rêve. Voici ce que "L'indépendance digitale" change vraiment | Low-production, honnête | Reel voix off | Vente |
+| 48 | Le système que j'utilise pour avancer sur mon business avec seulement 3h par semaine | Coulisses / système | Carrousel | Vente |
+| 49 | 🔴 Personne ne me demande comment je fais avec seulement 3h par semaine. Voici pourquoi ça devrait être ta question aussi | Fort potentiel viral, hook contrarian | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 50, ne jamais reformuler ni répéter les idées 1 à 49 ci-dessus.*
 
 ---
 
