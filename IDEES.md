@@ -198,7 +198,20 @@
 
 ---
 
-*Prochaine vague d'idées : continuer la numérotation à partir de 50, ne jamais reformuler ni répéter les idées 1 à 49 ci-dessus.*
+## Veille du 2026-09-21
+
+> Générée par le skill `veille-mds`. Même blocage réseau que le 14/09 (voir `VEILLE/semaine-2026-09-21.md`) — idées basées sur de vraies tendances trouvées par recherche web, pas de posts copiés.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 50 | Le MRR a mauvaise réputation. Voici ce qui est vrai, et ce qui ne l'est pas | Idée reçue à casser | Carrousel | Vente |
+| 51 | Pas de montage, pas de mise en scène. Juste ce qui se passe vraiment cette semaine dans mon business | Coulisses brutes (adapté faceless) | Reel voix off | Vente |
+| 52 | Ces femmes se sont révélées grâce aux réseaux sociaux. Voici ce qu'elles ont en commun | Tendance / aspirationnel | Carrousel | Valeur |
+| 53 | 🔴 Pourquoi je poste d'abord sur TikTok maintenant, et pas sur Instagram | Fort potentiel viral, tendance plateforme | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 54, ne jamais reformuler ni répéter les idées 1 à 53 ci-dessus.*
 
 ---
 
