@@ -211,7 +211,20 @@
 
 ---
 
-*Prochaine vague d'idées : continuer la numérotation à partir de 54, ne jamais reformuler ni répéter les idées 1 à 53 ci-dessus.*
+## Veille du 2026-09-28
+
+> Générée par le skill `veille-mds`. Même blocage réseau que les 14/09 et 21/09 (voir `VEILLE/semaine-2026-09-28.md`) — idées basées sur de vraies tendances/statistiques trouvées par recherche web, pas de posts copiés.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 54 | Le modèle qui monte en 2026, ce n'est pas "un seul business". C'est plusieurs revenus qui s'articulent | Tendance / positionnement | Carrousel | Vente |
+| 55 | Seulement 32% des femmes entrepreneures ont eu un accompagnement. Voici pourquoi je documente tout, gratuitement | Statistique / prise de conscience | Reel voix off | Vente |
+| 56 | Les outils IA que j'utilise pour créer du contenu plus vite (sans perdre mon authenticité) | Tuto / transparence | Carrousel | Valeur |
+| 57 | 🔴 "Un seul business" est en train de devenir un concept dépassé | Fort potentiel viral, tendance contrarian | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 58, ne jamais reformuler ni répéter les idées 1 à 57 ci-dessus.*
 
 ---
 
