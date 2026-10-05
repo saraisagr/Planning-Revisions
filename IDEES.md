@@ -224,7 +224,20 @@
 
 ---
 
-*Prochaine vague d'idées : continuer la numérotation à partir de 58, ne jamais reformuler ni répéter les idées 1 à 57 ci-dessus.*
+## Veille du 2026-10-05
+
+> Générée par le skill `veille-mds`. 4ᵉ semaine de blocage réseau (voir `VEILLE/semaine-2026-10-05.md`) — idées basées sur de vraies tendances/statistiques trouvées par recherche web, pas de posts copiés. Note : les Stories ressortent comme format fort (70% de complétion) mais ne sont pas autorisées par `MACHINE.md` — point soumis à Léna avant d'en proposer.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 58 | 47% des femmes citent le financement comme premier obstacle pour se lancer. Voici pourquoi le digital change la donne | Statistique / positionnement | Carrousel | Vente |
+| 59 | L'IA, je l'utilise. Mais jamais sans le dire | Transparence | Reel voix off | Vente |
+| 60 | Les comptes qui grandissent vite en 2026 n'utilisent jamais un seul format. Voici comment je répartis les miens | Méta / coulisses stratégie | Carrousel | Valeur |
+| 61 | 🔴 25% des femmes vont lancer leur business cette année. Voici ce qui va faire la différence pour les autres 75% | Fort potentiel viral, statistique | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 62, ne jamais reformuler ni répéter les idées 1 à 61 ci-dessus.*
 
 ---
 
