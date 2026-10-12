@@ -241,6 +241,23 @@
 
 ---
 
+## Veille du 2026-10-12
+
+> Générée par le skill `veille-mds`. WebFetch en panne totale cette semaine, différent du blocage proxy habituel (voir `VEILLE/semaine-2026-10-12.md`). Idées basées sur de vraies tendances trouvées par recherche web, pas de posts copiés. L'idée #65 s'appuie sur un chiffre non vérifié auprès d'une source officielle cette semaine — à prendre comme tendance rapportée, pas comme statistique confirmée.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 62 | Les offres qui montent le plus en 2026 ne sont pas le sur-mesure. Ce sont les formations et templates réplicables | Tendance / positionnement | Carrousel | Vente |
+| 63 | Je délègue la production à l'IA. Je garde la stratégie et la relation avec toi | Transparence | Reel voix off | Vente |
+| 64 | Entre le CDI et le freelance solo, une troisième voie existe. Voici à quoi elle ressemble | Tendance / éducatif | Carrousel | Valeur |
+| 65 | 🔴 À projet égal, les femmes lèvent moins d'argent que les hommes. Voici pourquoi je construis sans attendre un financement | Fort potentiel viral, statistique non vérifiée | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 66, ne jamais reformuler ni répéter les idées 1 à 65 ci-dessus.*
+
+---
+
 ## Suivi d'utilisation
 
 > Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).

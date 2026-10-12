@@ -1,5 +1,5 @@
 {
   "vus": [],
   "moyennes": {},
-  "note": "Semaine du 05/10/2026 : toujours aucun post vérifié (accès direct à Instagram, TikTok et la plupart des sites externes bloqué par le proxy réseau de la session, comme les 3 semaines précédentes). Seule la recherche web est disponible. À réessayer la semaine prochaine."
+  "note": "Semaine du 12/10/2026 : toujours aucun post vérifié. Cette semaine, WebFetch est en panne totale (erreur DNS 'getaddrinfo ENOTFOUND' sur tous les domaines testés, y compris wikipedia.org) — différent du blocage proxy des 4 semaines précédentes (qui renvoyait EGRESS_BLOCKED). Seule la recherche web (WebSearch) fonctionne. À réessayer la semaine prochaine."
 }
