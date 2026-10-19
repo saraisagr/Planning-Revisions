@@ -1,5 +1,5 @@
 {
   "vus": [],
   "moyennes": {},
-  "note": "Semaine du 12/10/2026 : toujours aucun post vérifié. Cette semaine, WebFetch est en panne totale (erreur DNS 'getaddrinfo ENOTFOUND' sur tous les domaines testés, y compris wikipedia.org) — différent du blocage proxy des 4 semaines précédentes (qui renvoyait EGRESS_BLOCKED). Seule la recherche web (WebSearch) fonctionne. À réessayer la semaine prochaine."
+  "note": "Semaine du 19/10/2026 : toujours aucun post vérifié. WebFetch reste en panne (DNS, même erreur que le 12/10). Seule la recherche web fonctionne. À réessayer la semaine prochaine."
 }

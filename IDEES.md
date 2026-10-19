@@ -258,6 +258,23 @@
 
 ---
 
+## Veille du 2026-10-19
+
+> Générée par le skill `veille-mds`. WebFetch toujours en panne (voir `VEILLE/semaine-2026-10-19.md`). Deux chiffres trouvés cette semaine (hausse des freelances INSEE, part de financement des startups féminines) n'ont pas pu être vérifiés à la source : volontairement non utilisés dans les idées ci-dessous.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 66 | Mon contenu n'est pas qu'un passe-temps. C'est une des sources de revenus de mon business | Tendance / positionnement | Carrousel | Vente |
+| 67 | Si tu es seule à vendre ton offre, ton personal branding n'est pas un bonus. C'est l'offre | Éducatif / positionnement | Reel voix off | Valeur |
+| 68 | Et si ton compte Instagram ne te rapportait jamais un seul centime directement ? Voici comment je pense mes revenus autrement | Tendance / éducatif | Carrousel | Vente |
+| 69 | 🔴 Je ne vis pas d'un seul revenu. Et c'est exactement pour ça que je me sens enfin en sécurité | Fort potentiel viral, émotionnel | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 70, ne jamais reformuler ni répéter les idées 1 à 69 ci-dessus.*
+
+---
+
 ## Suivi d'utilisation
 
 > Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).
