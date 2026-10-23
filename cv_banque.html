@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Sara Groléan, Gestionnaire middle office</title>
+<style>
+  /* ------------------------------------------------------------
+     Réglages principaux : modifiez ces variables pour ajuster
+     ------------------------------------------------------------ */
+  :root {
+    --accent: #1f3a5f;      /* bleu marine, seule couleur d'accent */
+    --ink: #1a1a1a;         /* texte principal */
+    --ink-2: #333333;       /* texte des puces */
+    --muted: #666666;       /* dates, entreprises */
+    --rule: #c9ced6;        /* filets fins */
+    --body: 9.6pt;           /* taille du texte courant */
+    --lh: 1.25;              /* interlignage */
+    --gap-section: 3.9mm;     /* espace entre sections */
+    --gap-item: 2.7mm;      /* espace entre expériences */
+  }
+
+  @page { size: A4; margin: 12mm 15mm 12mm 15mm; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    font-family: "Times New Roman", "Liberation Serif", Times, serif;
+    font-variant-ligatures: none;   /* texte propre pour les ATS */
+    font-size: var(--body);
+    line-height: var(--lh);
+    color: var(--ink);
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  p, li { text-wrap: pretty; hyphens: manual; }
+  .nowrap { white-space: nowrap; }
+
+  /* ---------------- En-tête ---------------- */
+  header {
+    padding-bottom: 3.4mm;
+    border-bottom: 1.2pt solid var(--accent);
+    margin-bottom: 4.4mm;
+  }
+  .name {
+    font-size: 25pt;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.05;
+  }
+  .title {
+    margin-top: 1.4mm;
+    font-size: 13pt;
+    font-style: italic;
+    color: var(--accent);
+  }
+  .contact {
+    margin-top: 1.8mm;
+    font-size: 9.6pt;
+    color: var(--ink-2);
+  }
+  .contact .sep { color: var(--rule); padding: 0 2.2mm; }
+
+  /* ---------------- Sections ---------------- */
+  section + section { margin-top: var(--gap-section); }
+
+  h2 {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    padding-bottom: 0.9mm;
+    border-bottom: 0.5pt solid var(--rule);
+    margin-bottom: 2.2mm;
+    line-height: 1.15;
+  }
+
+  .profile p { text-align: justify; text-align-last: left; text-wrap: wrap; }
+
+  /* ---------------- Expériences ---------------- */
+  .job + .job { margin-top: var(--gap-item); }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 4mm;
+  }
+  .role { font-size: 10.2pt; font-weight: 700; }
+  .date {
+    font-size: 8.8pt;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .company {
+    font-size: 9.5pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  ul { list-style: none; margin-top: 0.8mm; }
+  li {
+    padding-left: 4mm;
+    text-indent: -4mm;
+    color: var(--ink-2);
+  }
+  li + li { margin-top: 0.3mm; }
+  /* puce dessinée en CSS, non positionnée pour garder l'ordre de lecture */
+  li::before {
+    content: "";
+    display: inline-block;
+    width: 1.1mm;
+    height: 1.1mm;
+    margin-right: 2.9mm;
+    vertical-align: 0.2em;
+    background: var(--accent);
+    opacity: 0.7;
+  }
+
+  /* ---------------- Formation ---------------- */
+  .edu + .edu { margin-top: 1.8mm; }
+  .edu .degree { font-weight: 700; }
+  .edu .school { font-weight: 400; }
+  .edu .note { font-size: 9.3pt; color: var(--muted); }
+
+  /* ---------------- Compétences, langues, intérêts ---------------- */
+  .line + .line { margin-top: 1mm; }
+  .label { font-weight: 700; }
+  .line span.val { color: var(--ink-2); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="name">Sara Groléan</h1>
+  <p class="title">Gestionnaire middle office, banque privée et assurance vie</p>
+  <p class="contact">grolean.sara@gmail.com<span class="sep">|</span>+33 7 78 32 22 29<span class="sep">|</span>En cours d'installation en Andorre</p>
+</header>
+
+<section class="profile">
+  <h2>Profil</h2>
+  <p>Six ans d'expérience en banque privée et en gestion de patrimoine, au contact quotidien de banquiers privés et de conseillers en gestion de patrimoine. Je gère des contrats d'assurance vie et de capitalisation, de la souscription jusqu'à la succession, avec une part importante de contrôle et de conformité (KYC, LCB-FT). Rigoureuse, organisée et habituée à la confidentialité, je prépare mon installation en Andorre et recherche un poste dans la banque, l'assurance ou la gestion de patrimoine.</p>
+</section>
+
+<section>
+  <h2>Expériences professionnelles</h2>
+
+  <div class="job">
+    <div class="head">
+      <span class="role">Middle office, chargée de relation client</span>
+      <span class="date">Sept. 2024 à aujourd'hui</span>
+    </div>
+    <p class="company">Teora by Natixis Wealth Management, Paris (CDI)</p>
+    <ul>
+      <li>Gestion quotidienne des demandes des CGP et des banquiers privés partenaires sur les contrats d'assurance vie et de capitalisation</li>
+      <li>Accompagnement des banquiers sur les souscriptions, de la conformité LCB-FT à la signature client</li>
+      <li>Formation et support technique des partenaires sur les outils digitaux</li>
+      <li>Formation et intégration des nouveaux collaborateurs</li>
+      <li>Gestion des flux et contribution à l'amélioration des processus opérationnels</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="head">
+      <span class="role">Middle office, gestionnaire assurance vie</span>
+      <span class="date">Févr. 2023 à sept. 2024</span>
+    </div>
+    <p class="company">Teora by Natixis Wealth Management, Paris (CDI)</p>
+    <ul>
+      <li>Analyse, contrôle et suivi des opérations : souscriptions, versements, rachats, arbitrages et actes administratifs</li>
+      <li>Traitement des dossiers de succession : saisie du décès dans les bases de la banque, transmission des pièces à l'assureur (acte de décès, coordonnées du notaire)</li>
+      <li>Transmission des actes de gestion à l'assureur et suivi des dossiers jusqu'à leur résolution</li>
+      <li>Contribution à l'amélioration des processus opérationnels, formation des nouveaux collaborateurs</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="head">
+      <span class="role">Gestionnaire middle office</span>
+      <span class="date">Mai 2021 à janv. 2023</span>
+    </div>
+    <p class="company">Groupe Forward, Paris (CDI)</p>
+    <ul>
+      <li>Gestion de contrats d'assurance vie et de comptes-titres pour une clientèle privée et institutionnelle</li>
+      <li>Traitement des opérations courantes et rédaction des déclarations d'adéquation</li>
+      <li>Interface entre les clients et les assureurs partenaires</li>
+      <li>Support aux CGP et aux commerciaux institutionnels : reportings, préparation des rendez-vous clients</li>
+      <li>Mise à jour KYC des dossiers clients et gestion de la relation client</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="head">
+      <span class="role">Assistante commerciale banque privée</span>
+      <span class="date">Févr. 2020 à mai 2021</span>
+    </div>
+    <p class="company">Indosuez Wealth Management (févr. 2020 à déc. 2020), puis Edmond de Rothschild (déc. 2020 à mai 2021), Paris (intérim)</p>
+    <ul>
+      <li>Gestion des contrats d'assurance vie et des instructions clients sur les comptes bancaires</li>
+      <li>Support au banquier privé et participation au suivi commercial</li>
+      <li>Préparation des rendez-vous clients (reportings, documentation)</li>
+      <li>Mise à jour des dossiers clients et gestion de la relation client</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Formation</h2>
+  <div class="edu">
+    <div class="head">
+      <span><span class="degree">MBA Expert Ingénierie Patrimoniale et Financière</span>, <span class="school">Studi / ESG Finance</span></span>
+      <span class="date">2026 à 2027 (en cours)</span>
+    </div>
+  </div>
+  <div class="edu">
+    <div class="head">
+      <span><span class="degree">Licence professionnelle Assurance, Banque, Finance</span>, <span class="school">Université <span class="nowrap">Paris-Est-Marne-la-Vallée</span></span></span>
+      <span class="date">2019</span>
+    </div>
+    <p class="note">Certification AMF obtenue en juillet 2019</p>
+  </div>
+  <div class="edu">
+    <div class="head">
+      <span><span class="degree">DEUG Droit, Économie, Gestion, option AES</span>, <span class="school">Université Paris 1 <span class="nowrap">Panthéon-Sorbonne</span></span></span>
+      <span class="date">2013 à 2016</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Compétences et langues</h2>
+  <p class="line"><span class="label">Domaines : </span><span class="val">assurance vie et capitalisation, successions, conformité KYC et LCB-FT, déclarations d'adéquation, comptes-titres</span></p>
+  <p class="line"><span class="label">Outils : </span><span class="val">Salesforce, Manymore, outils bancaires internes, Pack Office (Excel), Suite Adobe</span></p>
+  <p class="line"><span class="label">Langues : </span><span class="val">français (langue maternelle), anglais (intermédiaire, TOEIC en cours)</span></p>
+</section>
+
+<section>
+  <h2>Centres d'intérêt</h2>
+  <p class="line"><span class="val">Trail et randonnée, voyages, musique</span></p>
+</section>
+
+</body>
+</html>
