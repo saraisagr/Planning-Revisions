@@ -31,11 +31,11 @@
     --ink-2: #3d3d3d;       /* texte secondaire */
     --muted: #6b6b6b;       /* dates, lieux */
     --rule: #cfc8c8;        /* filets fins */
-    --fs: 0.97pt;             /* échelle de toutes les tailles (1pt = tailles nominales) */
+    --fs: 1.03pt;             /* échelle de toutes les tailles (1pt = tailles nominales) */
     --body: calc(9.7 * var(--fs)); /* taille du texte courant */
     --lh: 1.32;              /* interlignage */
-    --gap-section: 4.8mm;   /* espace entre sections */
-    --gap-item: 3.3mm;      /* espace entre expériences */
+    --gap-section: 7mm;     /* espace entre sections */
+    --gap-item: 5mm;        /* espace entre expériences */
   }
 
   @page { size: A4; margin: 12mm 13mm 12mm 13mm; }
@@ -121,15 +121,15 @@
     font-size: calc(9.4 * var(--fs));
     color: var(--ink);
   }
-  .group + .group { margin-top: 2.6mm; }
+  .group + .group { margin-top: 3.4mm; }
   .group p { color: var(--ink-2); }
   .lang p + p { margin-top: 0.8mm; }
   .lang b { color: var(--ink); }
   .lang span { color: var(--ink-2); }
-  .edu .item + .item { margin-top: 2.2mm; }
+  .edu .item + .item { margin-top: 3mm; }
   .edu .degree { font-weight: 700; }
   .edu .school { color: var(--ink-2); }
-  aside .edu .school { font-size: calc(9 * var(--fs)); text-wrap: wrap; }
+  aside .edu .school { font-size: calc(8.75 * var(--fs)); text-wrap: wrap; }
   .edu .date { display: block; margin-top: 0.4mm; }
 
   /* ---------------- Colonne principale ---------------- */
@@ -155,7 +155,7 @@
   }
   .company + .role-line .role,
   .sub .role { font-weight: 600; font-style: italic; font-size: calc(9.7 * var(--fs)); }
-  .sub { margin-top: 2mm; }
+  .sub { margin-top: 3mm; }
   .sub .company-inline { font-style: italic; font-weight: 600; font-size: calc(9.7 * var(--fs)); }
   .meta { color: var(--muted); font-size: calc(9 * var(--fs)); }
   .date {
@@ -174,7 +174,7 @@
     text-indent: -3.2mm;
     color: var(--ink-2);
   }
-  li + li { margin-top: 0.6mm; }
+  li + li { margin-top: 1mm; }
   /* puce dessinée en CSS, non positionnée pour garder l'ordre de lecture */
   li::before {
     content: "";
@@ -188,14 +188,6 @@
     opacity: 0.75;
   }
 
-  /* ---------------- Formation complémentaire (mise en avant) ---------------- */
-  .highlight {
-    padding: 2.6mm 3.2mm 2.8mm 3.4mm;
-    border-left: 1.6pt solid var(--accent);
-    background: #f8f4f4;
-  }
-  .highlight h2 { border-bottom: none; padding-bottom: 0; margin-bottom: 1.2mm; }
-  .highlight li { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -263,18 +255,6 @@
       <p>Depuis six ans, je suis l'interlocutrice au quotidien de banquiers privés et de conseillers en gestion de patrimoine, et je les accompagne dans le suivi de leurs clients. J'aime le contact, l'écrit et les dossiers bien tenus. Je traite leurs demandes chaque jour sur Salesforce et je les forme à nos outils digitaux. Je souhaite aujourd'hui mettre cette expérience à profit dans un poste de CRM Manager.</p>
     </section>
 
-    <section class="highlight">
-      <h2>Formation complémentaire</h2>
-      <div class="role-line">
-        <span class="role">Setting et assistanat virtuel</span>
-        <span class="date">2026</span>
-      </div>
-      <ul>
-        <li>Conversation de vente par messages privés : prise de contact, qualification du prospect, prise de rendez-vous</li>
-        <li>Relances (cadence, ton, sans fausse urgence) et préparation de la passation au closer</li>
-        <li>Suivi des indicateurs : taux de qualification, de prise de rendez-vous, de no-show, coût par lead, ROAS</li>
-      </ul>
-    </section>
 
     <section>
       <h2>Expériences professionnelles</h2>
