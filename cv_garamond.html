@@ -133,7 +133,9 @@
   .edu .date { display: block; margin-top: 0.4mm; }
 
   /* ---------------- Colonne principale ---------------- */
-  .profile p { color: var(--ink); text-align: left; }
+  /* texte justifié dans la colonne principale (sans césure, pour les ATS) */
+  main p, main li { text-align: justify; text-align-last: left; text-wrap: wrap; }
+  .profile p { color: var(--ink); }
 
   .job + .job { margin-top: var(--gap-item); }
   .company {
