@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Sara Groléan, Relation client &amp; CRM</title>
+<style>
+  /* Polices fournies dans le dossier fonts/ (à garder à côté de cv.html) */
+  @font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 400; src: url("fonts/SourceSans3-400.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 600; src: url("fonts/SourceSans3-600.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 700; src: url("fonts/SourceSans3-700.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: italic; font-weight: 400; src: url("fonts/SourceSans3-400i.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: italic; font-weight: 600; src: url("fonts/SourceSans3-600i.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: normal; font-weight: 400; src: url("fonts/LibreFranklin-400.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: normal; font-weight: 600; src: url("fonts/LibreFranklin-600.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: normal; font-weight: 700; src: url("fonts/LibreFranklin-700.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: italic; font-weight: 400; src: url("fonts/LibreFranklin-400i.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: italic; font-weight: 600; src: url("fonts/LibreFranklin-600i.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; src: url("fonts/EBGaramond-400.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 600; src: url("fonts/EBGaramond-600.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 700; src: url("fonts/EBGaramond-700.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; src: url("fonts/EBGaramond-400i.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 600; src: url("fonts/EBGaramond-600i.ttf"); }
+
+  /* ------------------------------------------------------------
+     Réglages principaux : modifiez ces variables pour ajuster
+     ------------------------------------------------------------ */
+  :root {
+    --font: "EB Garamond", Georgia, serif;  /* police du document */
+    --accent: #7a1f2b;      /* bordeaux, seule couleur d'accent */
+    --ink: #1a1a1a;         /* texte principal */
+    --ink-2: #3d3d3d;       /* texte secondaire */
+    --muted: #6b6b6b;       /* dates, lieux */
+    --rule: #cfc8c8;        /* filets fins */
+    --fs: 1.03pt;              /* échelle de toutes les tailles (1pt = tailles nominales) */
+    --body: calc(9.7 * var(--fs)); /* taille du texte courant */
+    --lh: 1.32;              /* interlignage */
+    --gap-section: 4.8mm;   /* espace entre sections */
+    --gap-item: 3.3mm;      /* espace entre expériences */
+  }
+
+  @page { size: A4; margin: 12mm 13mm 12mm 13mm; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    font-family: var(--font);
+    font-variant-ligatures: none;  /* pas de ligatures fi/ffi : texte propre pour les ATS */
+    font-feature-settings: "liga" 0, "dlig" 0;
+    font-size: var(--body);
+    line-height: var(--lh);
+    color: var(--ink);
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  p, li { text-wrap: pretty; hyphens: manual; }
+  .nowrap { white-space: nowrap; }
+
+  /* ---------------- En-tête ---------------- */
+  header {
+    padding-bottom: 3.2mm;
+    border-bottom: 1.2pt solid var(--accent);
+    margin-bottom: 5.5mm;
+  }
+  .name {
+    font-size: calc(30 * var(--fs));
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    line-height: 1;
+    color: var(--ink);
+  }
+  .title {
+    margin-top: 1.6mm;
+    font-size: calc(13.5 * var(--fs));
+    font-style: italic;
+    color: var(--accent);
+    letter-spacing: 0.01em;
+  }
+  .situation {
+    margin-top: 1.4mm;
+    font-size: calc(9.5 * var(--fs));
+    color: var(--ink-2);
+  }
+
+  /* ---------------- Grille ---------------- */
+  .grid {
+    display: grid;
+    grid-template-columns: 28.5% 1fr;
+    column-gap: 5.5mm;
+  }
+  aside {
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 4mm;
+    border-right: 0.5pt solid var(--rule);
+  }
+  main { grid-column: 2; grid-row: 1; }
+
+  /* ---------------- Sections ---------------- */
+  section + section { margin-top: var(--gap-section); }
+
+  h2 {
+    font-size: calc(9.4 * var(--fs));
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    padding-bottom: 0.8mm;
+    border-bottom: 0.5pt solid var(--rule);
+    margin-bottom: 2mm;
+    line-height: 1.15;
+  }
+
+  /* ---------------- Colonne latérale ---------------- */
+  aside p, aside li { font-size: calc(9.4 * var(--fs)); }
+  .contact p + p { margin-top: 0.6mm; }
+  .label {
+    display: block;
+    font-weight: 700;
+    font-size: calc(9.4 * var(--fs));
+    color: var(--ink);
+  }
+  .group + .group { margin-top: 2.6mm; }
+  .group p { color: var(--ink-2); }
+  .lang p + p { margin-top: 0.8mm; }
+  .lang b { color: var(--ink); }
+  .lang span { color: var(--ink-2); }
+  .edu .item + .item { margin-top: 2.2mm; }
+  .edu .degree { font-weight: 700; }
+  .edu .school { color: var(--ink-2); }
+  aside .edu .school { font-size: calc(9 * var(--fs)); text-wrap: wrap; }
+  .edu .date { display: block; margin-top: 0.4mm; }
+
+  /* ---------------- Colonne principale ---------------- */
+  .profile p { color: var(--ink); text-align: left; }
+
+  .job + .job { margin-top: var(--gap-item); }
+  .company {
+    font-size: calc(10 * var(--fs));
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .company .where { font-weight: 400; color: var(--muted); font-size: calc(9 * var(--fs)); }
+  .role-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 3mm;
+  }
+  .role {
+    font-size: calc(10 * var(--fs));
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .company + .role-line .role,
+  .sub .role { font-weight: 600; font-style: italic; font-size: calc(9.7 * var(--fs)); }
+  .sub { margin-top: 2mm; }
+  .sub .company-inline { font-style: italic; font-weight: 600; font-size: calc(9.7 * var(--fs)); }
+  .meta { color: var(--muted); font-size: calc(9 * var(--fs)); }
+  .date {
+    font-size: calc(8.6 * var(--fs));
+    color: var(--muted);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 0.8mm;
+  }
+  li {
+    padding-left: 3.2mm;
+    text-indent: -3.2mm;
+    color: var(--ink-2);
+  }
+  li + li { margin-top: 0.6mm; }
+  /* puce dessinée en CSS, non positionnée pour garder l'ordre de lecture */
+  li::before {
+    content: "";
+    display: inline-block;
+    width: 1.1mm;
+    height: 1.1mm;
+    margin-right: 2.1mm;
+    vertical-align: 0.22em;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0.75;
+  }
+
+  /* ---------------- Formation complémentaire (mise en avant) ---------------- */
+  .highlight {
+    padding: 2.6mm 3.2mm 2.8mm 3.4mm;
+    border-left: 1.6pt solid var(--accent);
+    background: #f8f4f4;
+  }
+  .highlight h2 { border-bottom: none; padding-bottom: 0; margin-bottom: 1.2mm; }
+  .highlight li { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="name">Sara Groléan</h1>
+  <p class="title">Relation client &amp; CRM</p>
+  <p class="situation">En cours d'installation en Andorre, disponible pour un CDI basé en Andorre</p>
+</header>
+
+<div class="grid">
+
+  <aside>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>grolean.sara@gmail.com</p>
+      <p>+33 7 78 32 22 29</p>
+    </section>
+
+    <section>
+      <h2>Compétences</h2>
+      <div class="group">
+        <span class="label">Outils</span>
+        <p>Salesforce, Manymore, Pack&nbsp;Office (Excel), Suite Adobe, Canva (création de visuels)</p>
+      </div>
+      <div class="group">
+        <span class="label">Relation client</span>
+        <p>Suivi des demandes, réponses écrites aux partenaires, préparation de rendez-vous</p>
+      </div>
+      <div class="group">
+        <span class="label">Suivi et reporting</span>
+        <p>Reportings clients, suivi des&nbsp;flux, contrôle des dossiers (KYC, LCB-FT)</p>
+      </div>
+    </section>
+
+    <section class="lang">
+      <h2>Langues</h2>
+      <p><b>Français :</b> <span>langue maternelle</span></p>
+      <p><b>Anglais :</b> <span>intermédiaire (TOEIC&nbsp;en&nbsp;cours)</span></p>
+    </section>
+
+    <section class="edu">
+      <h2>Formation</h2>
+      <div class="item">
+        <p class="degree">Licence professionnelle Assurance, Banque, Finance</p>
+        <p class="school">Université <span class="nowrap">Paris-Est-Marne-la-Vallée</span>. Certification AMF</p>
+        <span class="date">2019</span>
+      </div>
+      <div class="item">
+        <p class="degree">DEUG Droit, Économie, Gestion (AES)</p>
+        <p class="school">Université Paris 1 <span class="nowrap">Panthéon-Sorbonne</span></p>
+        <span class="date">2013 à 2016</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Centres d'intérêt</h2>
+      <p>Trail et randonnée, voyages, lecture, musique</p>
+    </section>
+  </aside>
+
+  <main>
+    <section class="profile">
+      <h2>Profil</h2>
+      <p>Depuis six ans, je suis l'interlocutrice au quotidien de banquiers privés et de conseillers en gestion de patrimoine, et je les accompagne dans le suivi de leurs clients. J'aime le contact, l'écrit et les dossiers bien tenus. Je traite leurs demandes chaque jour sur Salesforce et je les forme à nos outils digitaux. Je souhaite aujourd'hui mettre cette expérience à profit dans un poste de CRM Manager.</p>
+    </section>
+
+    <section class="highlight">
+      <h2>Formation complémentaire</h2>
+      <div class="role-line">
+        <span class="role">Setting et assistanat virtuel</span>
+        <span class="date">2026</span>
+      </div>
+      <ul>
+        <li>Conversation de vente par messages privés : prise de contact, qualification du prospect, prise de rendez-vous</li>
+        <li>Relances (cadence, ton, sans fausse urgence) et préparation de la passation au closer</li>
+        <li>Suivi des indicateurs : taux de qualification, de prise de rendez-vous, de no-show, coût par lead, ROAS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Expériences professionnelles</h2>
+
+      <div class="job">
+        <p class="company">Teora by Natixis Wealth Management <span class="where">Paris (CDI)</span></p>
+        <div class="sub">
+          <div class="role-line">
+            <span class="role">Middle office, chargée de relation client</span>
+            <span class="date">Sept. 2024 à aujourd'hui</span>
+          </div>
+          <ul>
+            <li>Gestion au quotidien des demandes des CGP et des banquiers privés partenaires sur les contrats d'assurance vie et de capitalisation</li>
+            <li>Accompagnement des banquiers sur les souscriptions, de la conformité LCB-FT à la signature du client</li>
+            <li>Formation et support technique des partenaires sur les outils digitaux</li>
+            <li>Formation des nouveaux collaborateurs, gestion des flux, participation à l'amélioration des&nbsp;processus</li>
+          </ul>
+        </div>
+        <div class="sub">
+          <div class="role-line">
+            <span class="role">Middle office, gestionnaire assurance vie</span>
+            <span class="date">Févr. 2023 à sept. 2024</span>
+          </div>
+          <ul>
+            <li>Contrôle et suivi des opérations : souscriptions, versements, rachats, arbitrages, successions</li>
+            <li>Transmission des actes de gestion à l'assureur et suivi des dossiers jusqu'à leur clôture</li>
+            <li>Formation des nouveaux arrivants</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="role-line">
+          <span class="role">Gestionnaire middle office</span>
+          <span class="date">Mai 2021 à janv. 2023</span>
+        </div>
+        <p class="meta">Groupe Forward, Paris (CDI)</p>
+        <ul>
+          <li>Gestion de contrats d'assurance vie et de comptes-titres, clientèle privée et institutionnelle</li>
+          <li>Reportings et préparation des rendez-vous clients pour les CGP et les commerciaux</li>
+          <li>Rédaction des déclarations d'adéquation, mise à jour KYC</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="company">Assistante commerciale banque privée <span class="where">(intérim)</span></p>
+        <div class="sub">
+          <div class="role-line">
+            <span class="company-inline">Edmond de Rothschild, Paris</span>
+            <span class="date">Déc. 2020 à mai 2021</span>
+          </div>
+          <ul>
+            <li>Gestion des contrats d'assurance vie et des instructions clients sur les comptes bancaires</li>
+            <li>Support au banquier privé : suivi commercial, préparation des rendez-vous, mise à jour des dossiers</li>
+          </ul>
+        </div>
+        <div class="sub">
+          <div class="role-line">
+            <span class="company-inline">Indosuez Wealth Management, Paris</span>
+            <span class="date">Févr. 2020 à déc. 2020</span>
+          </div>
+          <ul>
+            <li>Gestion des contrats d'assurance vie et des instructions clients sur les comptes bancaires</li>
+            <li>Préparation des rendez-vous clients (reportings, documentation) et suivi de la relation client</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</div>
+</body>
+</html>

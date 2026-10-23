@@ -4,16 +4,35 @@
 <meta charset="utf-8">
 <title>Sara Groléan, Relation client &amp; CRM</title>
 <style>
+  /* Polices fournies dans le dossier fonts/ (à garder à côté de cv.html) */
+  @font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 400; src: url("fonts/SourceSans3-400.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 600; src: url("fonts/SourceSans3-600.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 700; src: url("fonts/SourceSans3-700.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: italic; font-weight: 400; src: url("fonts/SourceSans3-400i.ttf"); }
+  @font-face { font-family: "Source Sans 3"; font-style: italic; font-weight: 600; src: url("fonts/SourceSans3-600i.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: normal; font-weight: 400; src: url("fonts/LibreFranklin-400.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: normal; font-weight: 600; src: url("fonts/LibreFranklin-600.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: normal; font-weight: 700; src: url("fonts/LibreFranklin-700.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: italic; font-weight: 400; src: url("fonts/LibreFranklin-400i.ttf"); }
+  @font-face { font-family: "Libre Franklin"; font-style: italic; font-weight: 600; src: url("fonts/LibreFranklin-600i.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; src: url("fonts/EBGaramond-400.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 600; src: url("fonts/EBGaramond-600.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 700; src: url("fonts/EBGaramond-700.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; src: url("fonts/EBGaramond-400i.ttf"); }
+  @font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 600; src: url("fonts/EBGaramond-600i.ttf"); }
+
   /* ------------------------------------------------------------
      Réglages principaux : modifiez ces variables pour ajuster
      ------------------------------------------------------------ */
   :root {
+    --font: "Source Sans 3", Arial, sans-serif;  /* police du document */
     --accent: #7a1f2b;      /* bordeaux, seule couleur d'accent */
     --ink: #1a1a1a;         /* texte principal */
     --ink-2: #3d3d3d;       /* texte secondaire */
     --muted: #6b6b6b;       /* dates, lieux */
     --rule: #cfc8c8;        /* filets fins */
-    --body: 9.7pt;          /* taille du texte courant */
+    --fs: 0.97pt;             /* échelle de toutes les tailles (1pt = tailles nominales) */
+    --body: calc(9.7 * var(--fs)); /* taille du texte courant */
     --lh: 1.32;              /* interlignage */
     --gap-section: 4.8mm;   /* espace entre sections */
     --gap-item: 3.3mm;      /* espace entre expériences */
@@ -24,7 +43,9 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   html, body {
-    font-family: "Times New Roman", "Liberation Serif", Times, serif;
+    font-family: var(--font);
+    font-variant-ligatures: none;  /* pas de ligatures fi/ffi : texte propre pour les ATS */
+    font-feature-settings: "liga" 0, "dlig" 0;
     font-size: var(--body);
     line-height: var(--lh);
     color: var(--ink);
@@ -43,7 +64,7 @@
     margin-bottom: 5.5mm;
   }
   .name {
-    font-size: 30pt;
+    font-size: calc(30 * var(--fs));
     font-weight: 700;
     letter-spacing: 0.015em;
     line-height: 1;
@@ -51,14 +72,14 @@
   }
   .title {
     margin-top: 1.6mm;
-    font-size: 13.5pt;
+    font-size: calc(13.5 * var(--fs));
     font-style: italic;
     color: var(--accent);
     letter-spacing: 0.01em;
   }
   .situation {
     margin-top: 1.4mm;
-    font-size: 9.5pt;
+    font-size: calc(9.5 * var(--fs));
     color: var(--ink-2);
   }
 
@@ -80,7 +101,7 @@
   section + section { margin-top: var(--gap-section); }
 
   h2 {
-    font-size: 9.4pt;
+    font-size: calc(9.4 * var(--fs));
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -92,12 +113,12 @@
   }
 
   /* ---------------- Colonne latérale ---------------- */
-  aside p, aside li { font-size: 9.4pt; }
+  aside p, aside li { font-size: calc(9.4 * var(--fs)); }
   .contact p + p { margin-top: 0.6mm; }
   .label {
     display: block;
     font-weight: 700;
-    font-size: 9.4pt;
+    font-size: calc(9.4 * var(--fs));
     color: var(--ink);
   }
   .group + .group { margin-top: 2.6mm; }
@@ -108,7 +129,7 @@
   .edu .item + .item { margin-top: 2.2mm; }
   .edu .degree { font-weight: 700; }
   .edu .school { color: var(--ink-2); }
-  aside .edu .school { font-size: 9pt; text-wrap: wrap; }
+  aside .edu .school { font-size: calc(9 * var(--fs)); text-wrap: wrap; }
   .edu .date { display: block; margin-top: 0.4mm; }
 
   /* ---------------- Colonne principale ---------------- */
@@ -116,11 +137,11 @@
 
   .job + .job { margin-top: var(--gap-item); }
   .company {
-    font-size: 10pt;
+    font-size: calc(10 * var(--fs));
     font-weight: 700;
     color: var(--ink);
   }
-  .company .where { font-weight: 400; color: var(--muted); font-size: 9pt; }
+  .company .where { font-weight: 400; color: var(--muted); font-size: calc(9 * var(--fs)); }
   .role-line {
     display: flex;
     justify-content: space-between;
@@ -128,17 +149,17 @@
     gap: 3mm;
   }
   .role {
-    font-size: 10pt;
+    font-size: calc(10 * var(--fs));
     font-weight: 700;
     color: var(--ink);
   }
   .company + .role-line .role,
-  .sub .role { font-weight: 700; font-style: italic; font-size: 9.7pt; }
+  .sub .role { font-weight: 600; font-style: italic; font-size: calc(9.7 * var(--fs)); }
   .sub { margin-top: 2mm; }
-  .sub .company-inline { font-style: italic; font-weight: 700; font-size: 9.7pt; }
-  .meta { color: var(--muted); font-size: 9pt; }
+  .sub .company-inline { font-style: italic; font-weight: 600; font-size: calc(9.7 * var(--fs)); }
+  .meta { color: var(--muted); font-size: calc(9 * var(--fs)); }
   .date {
-    font-size: 8.6pt;
+    font-size: calc(8.6 * var(--fs));
     color: var(--muted);
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
