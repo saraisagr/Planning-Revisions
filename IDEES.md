@@ -275,6 +275,23 @@
 
 ---
 
+## Veille du 2026-10-26
+
+> Générée par le skill `veille-mds`. WebFetch toujours en panne (voir `VEILLE/semaine-2026-10-26.md`). Deux chiffres cette semaine viennent d'une source nommée (baromètre DGE-Bpifrance 2026, relayé par Previssima) ; l'idée #73 utilise un chiffre non vérifié, présenté avec prudence dans le contenu lui-même ("on dit que").
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 70 | La part des femmes entrepreneures augmente chaque année depuis 2021. Voici ce que ça change pour toi | Tendance / sourcé | Carrousel | Vente |
+| 71 | 37% des femmes qui se lancent le font pour une seule raison : être leur propre patronne | Statistique / identification | Reel voix off | Valeur |
+| 72 | Le personal branding n'est plus un plus, il est incontournable. Voici comment je construis le mien avec une persona IA | Tendance / transparence | Carrousel | Vente |
+| 73 | 🔴 On dit qu'une femme lève 2,5 fois moins qu'un homme à projet égal. Vrai ou pas, voici pourquoi ça ne change rien à ma décision d'avancer | Fort potentiel viral, statistique non vérifiée | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 74, ne jamais reformuler ni répéter les idées 1 à 73 ci-dessus.*
+
+---
+
 ## Suivi d'utilisation
 
 > Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).
