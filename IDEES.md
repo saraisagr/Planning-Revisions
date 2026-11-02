@@ -292,6 +292,23 @@
 
 ---
 
+## Veille du 2026-11-02
+
+> Générée par le skill `veille-mds`. WebFetch toujours en panne, confirmé via sous-agent (voir `VEILLE/semaine-2026-11-02.md`). L'idée #76 cite un nouvel écart de financement (Bpifrance, 30%) différent de celui du 26/10 (32%/40%) — deux mesures possibles du même écart, pas une contradiction. L'idée #77 utilise un chiffre à source faible, présenté avec prudence.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 74 | Les secteurs qui montent pour les entrepreneures en 2026 ont tous un point commun : digital + revenus récurrents | Tendance / positionnement | Carrousel | Vente |
+| 75 | Plus de la moitié des entrepreneures comptent investir plus dans leurs outils digitaux cette année. Voici où je mets mon argent, moi | Tendance / coulisses | Reel voix off | Valeur |
+| 76 | Les start-up fondées par des femmes lèvent 30% de fonds en moins (Bpifrance). Le digital, lui, ne demande aucune levée de fonds pour commencer | Statistique / positionnement | Carrousel | Vente |
+| 77 | 🔴 On dit que 74% des femmes voient l'indépendance financière comme objectif prioritaire. Moi, j'en fais partie, et ce chiffre ne m'étonne pas | Fort potentiel viral, statistique à source faible | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 78, ne jamais reformuler ni répéter les idées 1 à 77 ci-dessus.*
+
+---
+
 ## Suivi d'utilisation
 
 > Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).
