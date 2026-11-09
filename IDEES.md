@@ -309,6 +309,23 @@
 
 ---
 
+## Veille du 2026-11-09
+
+> Générée par le skill `veille-mds`. WebFetch toujours en panne, 5ᵉ semaine, reconfirmé via sous-agent (voir `VEILLE/semaine-2026-11-09.md`). Idées basées sur de vraies tendances trouvées par recherche web.
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 78 | Un cours en ligne, tu le crées une fois. Il continue de se vendre après | Tendance / positionnement | Carrousel | Vente |
+| 79 | Près de la moitié des entrepreneures gèrent leurs finances entièrement seules. Voici comment j'ai appris à faire pareil | Statistique / coulisses | Reel voix off | Valeur |
+| 80 | Le digital de rupture reste hors de portée pour la plupart. Le digital accessible, lui, ne l'est pas | Tendance / idée reçue à casser | Carrousel | Vente |
+| 81 | 🔴 Je n'ai besoin de l'accord de personne pour créer quelque chose qui continuera à me rapporter dans six mois | Fort potentiel viral, aspirationnel | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 82, ne jamais reformuler ni répéter les idées 1 à 81 ci-dessus.*
+
+---
+
 ## Suivi d'utilisation
 
 > Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).
