@@ -326,6 +326,23 @@
 
 ---
 
+## Veille du 2026-11-16
+
+> Générée par le skill `veille-mds`. WebFetch toujours en panne, 6ᵉ semaine, reconfirmé via sous-agent (voir `VEILLE/semaine-2026-11-16.md`). L'idée #84 répond avec nuance à un signal de prudence trouvé chez Bpifrance (le digital accessible est une vraie porte d'entrée, pas une finalité suffisante seule).
+
+| # | Titre accrocheur | Angle | Format | Nature |
+|---|---|---|---|---|
+| 82 | Fixer mes propres tarifs. Voilà ce qui m'a le plus libérée financièrement, bien avant le premier euro gagné | Tendance / positionnement | Carrousel | Vente |
+| 83 | Je ne culpabilise plus en parlant d'argent. Voici ce qui a changé | Mindset / tendance | Reel voix off | Valeur |
+| 84 | Le digital accessible n'est pas un lot de consolation. C'est une vraie porte d'entrée, à condition de la prendre au sérieux | Idée reçue à casser / nuance | Carrousel | Vente |
+| 85 | 🔴 Personne ne m'a donné la permission de fixer mes tarifs. Je l'ai juste fait | Fort potentiel viral, aspirationnel | Reel voix off | Valeur |
+
+---
+
+*Prochaine vague d'idées : continuer la numérotation à partir de 86, ne jamais reformuler ni répéter les idées 1 à 85 ci-dessus.*
+
+---
+
 ## Suivi d'utilisation
 
 > Idées piochées pour un calendrier. Voir `CALENDRIER.md` pour le détail (jour, plateforme, déclinaisons).
